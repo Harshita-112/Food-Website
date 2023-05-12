@@ -1,0 +1,41 @@
+body 
+{
+  font-family:Arial, Helvetica, sans-serif; 
+  background: -webkit-linear-gradient(to right, #f9ef2d, #23f707);  
+  background: linear-gradient(to right, #fad11c, #05f221); 
+  color:rgb(0, 0, 0);
+}
+
+
+form{
+    width:20rem;
+    margin: auto;
+    color:rgb(15, 1, 1);
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(255, 255, 255, 0.715);
+    border-radius: 12px;
+    border: 2px solid rgb(10, 10, 10);
+    padding: 15px 20px;
+
+}
+input[type=text],input[type=password],input[type=number],input[type=date]{
+    width: 100%;
+    border-radius: 5px;
+    margin: 5px 0;
+    padding: 5px 26px;
+    box-sizing: border-box;
+}
+.mainContainer{
+    padding: 50px;
+}
+button{
+    border-radius: 5px;
+    margin: 7px 0;
+    width: 100%;
+    font-size: 18px;
+}
+button :hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
